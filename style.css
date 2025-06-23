@@ -11,12 +11,6 @@ body {
   color: #333;
   transition: 0.3s;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 
 .home {
   display: flex;
@@ -120,9 +114,7 @@ body {
   margin-right: 600px;
 }
 .nav-links a {
-
   color: var(--text);
-
 }
 .hero {
   height: 90vh;
@@ -152,7 +144,7 @@ body {
   height: 2px;
   left: 0;
   bottom: -4px;
-  background-color: #7a38f1; /* underline color */
+  background-color: #7a38f1; 
   transition: width 0.3s ease;
 }
 
