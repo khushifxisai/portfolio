@@ -6,6 +6,3 @@ topBtn.onclick = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
-document.getElementById("darkToggle").onclick = () => {
-  document.body.classList.toggle("dark");
-};
